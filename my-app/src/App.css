@@ -1,0 +1,9 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+:root{
+  --black: #343434;
+  --bg: black;
+}

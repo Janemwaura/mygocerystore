@@ -1,0 +1,81 @@
+.container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    align-items: center; 
+}
+
+
+.h_sides {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.text1 {
+    font-family: "Cinzel", serif;
+    font-size: 3.5rem;
+    color: white; 
+}
+
+.text2 {
+    font-size: 3rem;
+    
+    color: #4fa02a; 
+}
+
+.button button {
+    background-color: #4fa02a; 
+    color: white;
+    padding: 10px 30px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1.2rem; 
+    
+}
+
+.button button:hover {
+    background-color: #3d8124; 
+}
+
+.r_sides {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+}
+
+.img2 img {
+    width: 100%; 
+    max-width: 400px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.img3 img {
+    position: absolute;
+    bottom: -20px; 
+    right: 700px;
+    width: 90px; 
+    height: auto;
+    opacity: 0.8; 
+}
+.img4 img{
+    
+    width: 100px;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative; 
+    top: 20px; 
+    left: 15px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+}
+
